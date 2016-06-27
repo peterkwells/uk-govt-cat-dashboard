@@ -1,48 +1,41 @@
+colours:
+  dark-blue: 0a4166
+  light-blue: 71caf0
+  green: c9c92c
+  orange: e87d25
+  claret: ab225b
+
 rows: 2
-cols: 3
+cols: 2
 metrics:
-  - metric: simple-metric
+  - metric: facilities
     colours:
       text: ffffff
-      box: 2254f4
+      box: 0a4166
+    type: number
     row: 1
     col: 1
 
-  - metric: simple-metric
+  - metric: inactive
     colours:
       text: ffffff
-      box: 0dbc37
+      box: c9c92c
     type: number
     row: 1
     col: 2
 
-  - metric: metric-with-target
+  - metric: participation
     colours:
       text: ffffff
-      box: ff6700
-    type: target
-    row: 1
-    col: 3
-
-  - metric: metric-with-ytd-target
-    colours:
-      text: ffffff
-      box: d60303
-    type: target
+      box: e87d25
+    type: number
     row: 2
     col: 1
 
-  - metric: simple-metric
+  - metric: volunteering
     colours:
       text: ffffff
-      box: e6007c
+      box: ab225b
+    type: number
     row: 2
     col: 2
-
-  - metric: metric-with-multiple-values
-    colours:
-      text: ffffff
-      box: ef3aab
-    type: pie
-    row: 2
-    col: 3
