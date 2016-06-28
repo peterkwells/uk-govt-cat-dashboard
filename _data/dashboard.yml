@@ -6,7 +6,8 @@ colours:
   claret: ab225b
 
 rows: 2
-cols: 2
+cols: 4
+
 metrics:
   - metric: facilities
     colours:
@@ -39,3 +40,13 @@ metrics:
     type: number
     row: 2
     col: 2
+
+  - metric: strategic-priority-investment
+    colours:
+      text: ffffff
+      box: 71caf0
+    type: pie
+    row: 1
+    col: 3
+    height: 2
+    width: 2
