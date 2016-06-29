@@ -2,25 +2,6 @@
 layout: dashboard
 ---
 
-<a href='https://www.sportengland.org/'>
-  <img src='assets/sport-england-logos/sport-england-logo-white/sport-england-logo-white-rgb.png' class='logo' />
-</a>
+{% include metrics.html dashboard=site.data.dashboard.financial %}
 
-<ul class="grid rows-{{ site.data.dashboard.rows }} cols-{{ site.data.dashboard.cols }}">
-  {% for panel in site.data.dashboard.metrics %}
-    <li class="row-{{ panel.row }} col-{{ panel.col }} height-{{ panel.height }} width-{{ panel.width }}">
-      {% if panel.from || panel.to %}
-        {% assign root_url = site.bothan_root | append:'/metrics/' | append:panel.metric | append:'/' | append:panel.from  | append:'/' | append:panel.to  %}
-      {% else %}
-        {% assign root_url = site.bothan_root | append:'/metrics/' | append:panel.metric  %}
-      {% endif %}
-      <iframe src='{{ root_url }}?layout=bare&boxcolour={{ site.data.colours[panel.colours.box] | default: panel.colours.box }}&textcolour={{ site.data.colours[panel.colours.text] | default: panel.colours.text }}&type={{ panel.type }}'
-              width='100%'
-              height='100%'
-              frameBorder='0'
-              scrolling='no'
-              style='position: absolute;'>
-      </iframe>
-    </li>
-  {% endfor %}
-</ul>
+{% include metrics.html dashboard=site.data.dashboard.performance %}
