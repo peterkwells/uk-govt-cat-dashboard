@@ -10,9 +10,9 @@ layout: dashboard
   {% for panel in site.data.dashboard.metrics %}
     <li class="row-{{ panel.row }} col-{{ panel.col }} height-{{ panel.height }} width-{{ panel.width }}">
       {% if panel.from || panel.to %}
-        {% assign root_url = 'https://sport-england-bothan.herokuapp.com/metrics/' | append:panel.metric | append:'/' | append:panel.from  | append:'/' | append:panel.to  %}
+        {% assign root_url = site.bothan_root | append:'/metrics/' | append:panel.metric | append:'/' | append:panel.from  | append:'/' | append:panel.to  %}
       {% else %}
-        {% assign root_url = 'https://sport-england-bothan.herokuapp.com/metrics/' | append:panel.metric  %}
+        {% assign root_url = site.bothan_root | append:'/metrics/' | append:panel.metric  %}
       {% endif %}
       <iframe src='{{ root_url }}?layout=bare&boxcolour={{ panel.colours.box }}&textcolour={{ panel.colours.text }}&type={{ panel.type }}'
               width='100%'
