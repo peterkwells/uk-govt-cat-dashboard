@@ -3,10 +3,20 @@
 
 html, body{
   height:100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hidden {
   display: none;
+}
+
+h1 {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  color: #eee;
+  margin: 0;
+  padding: 0;
 }
 
 body {
