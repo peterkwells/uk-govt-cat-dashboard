@@ -9,11 +9,14 @@ rows: 2
 cols: 4
 
 metrics:
-  - metric: facilities
+
+  - metric: participation
     colours:
       text: ffffff
-      box: 0a4166
-    type: number
+      box: ab225b
+    type: chart
+    from: '*'
+    to: '*'
     row: 1
     col: 1
 
@@ -27,7 +30,7 @@ metrics:
     row: 1
     col: 2
 
-  - metric: participation
+  - metric: outdoor-space
     colours:
       text: ffffff
       box: e87d25
@@ -41,17 +44,35 @@ metrics:
     colours:
       text: ffffff
       box: ab225b
-    type: number
+    type: chart
+    from: '*'
+    to: '*'
     row: 2
     col: 2
 
-  - metric: outdoor-space
+  - metric: operating-cost
     colours:
       text: ffffff
-      box: ab225b
-    type: number
+      box: 0a4166
+    type: target
     row: 1
     col: 3
+
+  - metric: grant-processing-cost
+    colours:
+      text: ffffff
+      box: c9c92c
+    type: target
+    row: 2
+    col: 3
+
+  # - metric: facilities
+  #   colours:
+  #     text: ffffff
+  #     box: 0a4166
+  #   type: number
+  #   row: 1
+  #   col: 3
 
   - metric: strategic-priority-investment
     colours:
