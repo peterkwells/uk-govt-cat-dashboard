@@ -1,99 +1,119 @@
-rows: 4
-cols: 4
+financial:
+  rows: 2
+  cols: 4
 
-metrics:
+  metrics:
 
-  - metric: participation
-    colours:
-      text: white
-      box: blue
-    type: chart
-    from: '*'
-    to: '*'
-    row: 1
-    col: 1
-    height: 2
+    - metric: operating-cost
+      colours:
+        text: white
+        box: blue
+      type: target
+      row: 1
+      col: 1
 
-  - metric: outdoor-space
-    colours:
-      text: white
-      box: burgundy
-    type: chart
-    from: '2005-01-01'
-    to: '*'
-    row: 3
-    col: 1
-    height: 2
+    - metric: grant-processing-cost
+      colours:
+        text: white
+        box: burgundy
+      type: target
+      row: 2
+      col: 1
 
-  - metric: inactivity
-    colours:
-      text: white
-      box: orange
-    type: chart
-    from: '*'
-    to: '*'
-    row: 1
-    col: 2
-    height: 2
+    - metric: lottery-income
+      colours:
+        text: white
+        box: gold
+      type: target
+      row: 1
+      col: 2
 
-  - metric: volunteering
-    colours:
-      text: white
-      box: khaki
-    type: chart
-    from: '*'
-    to: '*'
-    row: 3
-    col: 2
-    height: 2
+    - metric: bank-balance
+      colours:
+        text: white
+        box: orange
+      type: target
+      row: 2
+      col: 2
 
-  - metric: operating-cost
-    colours:
-      text: white
-      box: blue
-    type: target
-    row: 1
-    col: 3
+    - metric: lottery-payments
+      colours:
+        text: white
+        box: green
+      type: target
+      row: 1
+      col: 3
 
-  - metric: grant-processing-cost
-    colours:
-      text: white
-      box: burgundy
-    type: target
-    row: 2
-    col: 3
+    - metric: strategic-priority-investment
+      colours:
+        text: white
+        box: khaki
+      type: pie
+      row: 1
+      col: 4
+      height: 2
+      width: 1
 
-  - metric: lottery-payments
-    colours:
-      text: white
-      box: orange
-    type: target
-    row: 3
-    col: 3
+    - metric: strategic-priority-investment
+      colours:
+        text: white
+        box: khaki
+      type: pie
+      row: 1
+      col: 4
+      height: 2
+      width: 1
 
-  - metric: bank-balance
-    colours:
-      text: white
-      box: khaki
-    type: target
-    row: 4
-    col: 3
+performance:
+  rows: 2
+  cols: 3
 
-  - metric: strategic-priority-investment
-    colours:
-      text: white
-      box: blue
-    type: pie
-    row: 1
-    col: 4
-    height: 2
-    width: 1
+  metrics:
 
-  - metric: facilities
-    colours:
-      text: white
-      box: burgundy
-    type: number
-    row: 3
-    col: 4
-    height: 2
+    - metric: participation
+      colours:
+        text: white
+        box: blue
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 1
+
+    - metric: outdoor-space
+      colours:
+        text: white
+        box: burgundy
+      type: chart
+      from: '2005-01-01'
+      to: '*'
+      row: 2
+      col: 1
+
+    - metric: inactivity
+      colours:
+        text: white
+        box: orange
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 2
+
+    - metric: volunteering
+      colours:
+        text: white
+        box: khaki
+      type: chart
+      from: '*'
+      to: '*'
+      row: 2
+      col: 2
+
+    - metric: facilities
+      colours:
+        text: white
+        box: blue
+      type: number
+      row: 1
+      col: 3

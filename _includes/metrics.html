@@ -1,0 +1,5 @@
+<ul class="grid rows-{{ include.dashboard.rows }} cols-{{ include.dashboard.cols }}">
+  {% for panel in include.dashboard.metrics %}
+    {% include metric.html panel=panel %}
+  {% endfor %}
+</ul>

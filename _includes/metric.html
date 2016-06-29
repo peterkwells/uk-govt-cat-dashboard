@@ -1,0 +1,14 @@
+<li class="row-{{ include.panel.row }} col-{{ include.panel.col }} height-{{ include.panel.height }} width-{{ include.panel.width }}">
+  {% if include.panel.from || include.panel.to %}
+    {% assign root_url = site.bothan_root | append:'/metrics/' | append:include.panel.metric | append:'/' | append:include.panel.from  | append:'/' | append:include.panel.to  %}
+  {% else %}
+    {% assign root_url = site.bothan_root | append:'/metrics/' | append:include.panel.metric  %}
+  {% endif %}
+  <iframe src='{{ root_url }}?layout=bare&boxcolour={{ site.data.colours[include.panel.colours.box] | default: include.panel.colours.box }}&textcolour={{ site.data.colours[include.panel.colours.text] | default: include.panel.colours.text }}&type={{ include.panel.type }}'
+          width='100%'
+          height='100%'
+          frameBorder='0'
+          scrolling='no'
+          style='position: absolute;'>
+  </iframe>
+</li>
