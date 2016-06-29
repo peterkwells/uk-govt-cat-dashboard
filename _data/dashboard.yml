@@ -31,7 +31,7 @@ metrics:
       box: e87d25
     type: chart
     from: '2005-01-01'
-    to: '2016-01-01'
+    to: '*'
     row: 2
     col: 1
 
