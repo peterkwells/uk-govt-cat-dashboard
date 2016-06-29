@@ -2,6 +2,17 @@
 layout: dashboard
 ---
 
-{% include metrics.html dashboard=site.data.dashboard.financial %}
+{% include metrics.html dashboard=site.data.dashboard.financial id='financial' %}
 
-{% include metrics.html dashboard=site.data.dashboard.performance %}
+{% include metrics.html dashboard=site.data.dashboard.performance id='performance' %}
+
+<script>
+  $(document).ready(function() {
+    $('#performance').addClass('hidden');
+
+    setInterval(function() {
+      $('#financial').toggleClass('hidden');
+      $('#performance').toggleClass('hidden');
+    }, 30000);
+  })
+</script>
