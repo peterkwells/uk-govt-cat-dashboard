@@ -29,7 +29,9 @@ metrics:
     colours:
       text: ffffff
       box: e87d25
-    type: number
+    type: chart
+    from: '2005-01-01'
+    to: '2016-01-01'
     row: 2
     col: 1
 
