@@ -17,11 +17,13 @@ metrics:
     row: 1
     col: 1
 
-  - metric: inactive
+  - metric: inactivity
     colours:
       text: ffffff
       box: c9c92c
-    type: number
+    type: chart
+    from: '*'
+    to: '*'
     row: 1
     col: 2
 
@@ -43,12 +45,20 @@ metrics:
     row: 2
     col: 2
 
+  - metric: outdoor-space
+    colours:
+      text: ffffff
+      box: ab225b
+    type: number
+    row: 1
+    col: 3
+
   - metric: strategic-priority-investment
     colours:
       text: ffffff
       box: 71caf0
     type: pie
     row: 1
-    col: 3
+    col: 4
     height: 2
-    width: 2
+    width: 1
