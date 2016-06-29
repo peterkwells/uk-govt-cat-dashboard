@@ -1,11 +1,12 @@
 colours:
-  dark-blue: 0a4166
-  light-blue: 71caf0
-  green: c9c92c
-  orange: e87d25
-  claret: ab225b
+  blue: 9bcbea
+  burgundy: ab205c
+  gold: c5a800
+  green: 009340
+  orange: ef8b1e
+  khaki: 7f9c92
 
-rows: 2
+rows: 4
 cols: 4
 
 metrics:
@@ -13,47 +14,51 @@ metrics:
   - metric: participation
     colours:
       text: ffffff
-      box: ab225b
+      box: 9bcbea
     type: chart
     from: '*'
     to: '*'
     row: 1
     col: 1
-
-  - metric: inactivity
-    colours:
-      text: ffffff
-      box: c9c92c
-    type: chart
-    from: '*'
-    to: '*'
-    row: 1
-    col: 2
+    height: 2
 
   - metric: outdoor-space
     colours:
       text: ffffff
-      box: e87d25
+      box: ab205c
     type: chart
     from: '2005-01-01'
     to: '*'
-    row: 2
+    row: 3
     col: 1
+    height: 2
+
+  - metric: inactivity
+    colours:
+      text: ffffff
+      box: c5a800
+    type: chart
+    from: '*'
+    to: '*'
+    row: 1
+    col: 2
+    height: 2
 
   - metric: volunteering
     colours:
       text: ffffff
-      box: ab225b
+      box: 009340
     type: chart
     from: '*'
     to: '*'
-    row: 2
+    row: 3
     col: 2
+    height: 2
 
   - metric: operating-cost
     colours:
       text: ffffff
-      box: 0a4166
+      box: 9bcbea
     type: target
     row: 1
     col: 3
@@ -61,25 +66,42 @@ metrics:
   - metric: grant-processing-cost
     colours:
       text: ffffff
-      box: c9c92c
+      box: ab205c
     type: target
     row: 2
     col: 3
 
-  # - metric: facilities
-  #   colours:
-  #     text: ffffff
-  #     box: 0a4166
-  #   type: number
-  #   row: 1
-  #   col: 3
+  - metric: lottery-payments
+    colours:
+      text: ffffff
+      box: ef8b1e
+    type: target
+    row: 3
+    col: 3
+
+  - metric: bank-balance
+    colours:
+      text: ffffff
+      box: 7f9c92
+    type: target
+    row: 4
+    col: 3
 
   - metric: strategic-priority-investment
     colours:
       text: ffffff
-      box: 71caf0
+      box: 9bcbea
     type: pie
     row: 1
     col: 4
     height: 2
     width: 1
+
+  - metric: facilities
+    colours:
+      text: ffffff
+      box: ab205c
+    type: number
+    row: 3
+    col: 4
+    height: 2
