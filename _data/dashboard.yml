@@ -35,6 +35,7 @@ financial:
       type: target
       row: 2
       col: 2
+      width: 2
 
     - metric: lottery-payments
       colours:
