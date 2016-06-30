@@ -2,17 +2,21 @@
 layout: dashboard
 ---
 
-{% include metrics.html dashboard=site.data.dashboard.financial id='financial' %}
+<div id="financial" class="wrapper hidden" data-title="Financial Metrics">
+  {% include metrics.html dashboard=site.data.dashboard.financial %}
+</div>
 
-{% include metrics.html dashboard=site.data.dashboard.performance id='performance' %}
+<div id="performance" class="wrapper" data-title="Performance Metrics">
+  {% include metrics.html dashboard=site.data.dashboard.performance %}
+</div>
 
 <script>
   $(document).ready(function() {
-    $('#performance').addClass('hidden');
-
     setInterval(function() {
       $('#financial').toggleClass('hidden');
       $('#performance').toggleClass('hidden');
+      title = $('div:not(.hidden)').data('title')
+      $('h1').html(title)
     }, 30000);
   })
 </script>
