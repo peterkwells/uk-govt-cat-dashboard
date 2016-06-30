@@ -117,3 +117,11 @@ performance:
       type: number
       row: 1
       col: 3
+
+    - metric: csaf-participation
+      colours:
+        text: white
+        box: burgundy
+      type: pie
+      row: 2
+      col: 3
