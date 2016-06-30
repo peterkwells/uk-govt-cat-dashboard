@@ -4,7 +4,11 @@
   {% else %}
     {% assign root_url = site.bothan_root | append:'/metrics/' | append:include.panel.metric  %}
   {% endif %}
-  <iframe src='{{ root_url }}?layout=bare&boxcolour={{ site.data.colours[include.panel.colours.box] | default: include.panel.colours.box }}&textcolour={{ site.data.colours[include.panel.colours.text] | default: include.panel.colours.text }}&font_size=8vh&type={{ include.panel.type }}'
+  {% assign fontsize = 8 %}
+  {% if include.panel.height == 2 %}
+    {% assign fontsize = 4.7 %}
+  {% endif %}
+  <iframe src='{{ root_url }}?layout=bare&boxcolour={{ site.data.colours[include.panel.colours.box] | default: include.panel.colours.box }}&textcolour={{ site.data.colours[include.panel.colours.text] | default: include.panel.colours.text }}&font_size={{ fontsize }}vh&type={{ include.panel.type }}'
           width='100%'
           height='100%'
           frameBorder='0'
