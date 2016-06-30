@@ -66,7 +66,7 @@ financial:
 
 performance:
   rows: 2
-  cols: 3
+  cols: 4
 
   metrics:
 
@@ -125,3 +125,19 @@ performance:
       type: pie
       row: 2
       col: 3
+
+    - metric: coaching-satisfaction-breakdown
+      colours:
+        text: white
+        box: khaki
+      type: pie
+      row: 1
+      col: 4
+
+    - metric: coaching-net-promoter-score
+      colours:
+        text: white
+        box: green
+      type: number
+      row: 2
+      col: 4
