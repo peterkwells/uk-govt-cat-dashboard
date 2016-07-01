@@ -7,7 +7,7 @@ financial:
     - metric: operating-cost
       colours:
         text: white
-        box: blue
+        box: set_one_pink
       type: target
       row: 1
       col: 1
@@ -15,7 +15,7 @@ financial:
     - metric: grant-processing-cost
       colours:
         text: white
-        box: burgundy
+        box: set_one_teal
       type: target
       row: 2
       col: 1
@@ -23,7 +23,7 @@ financial:
     - metric: lottery-income
       colours:
         text: white
-        box: gold
+        box: set_one_cyan
       type: target
       row: 1
       col: 2
@@ -31,7 +31,7 @@ financial:
     - metric: bank-balance
       colours:
         text: white
-        box: orange
+        box: set_one_pink
       type: target
       row: 2
       col: 2
@@ -40,7 +40,7 @@ financial:
     - metric: lottery-payments
       colours:
         text: white
-        box: green
+        box: set_one_teal
       type: target
       row: 1
       col: 3
@@ -48,7 +48,7 @@ financial:
     - metric: strategic-priority-investment
       colours:
         text: white
-        box: khaki
+        box: set_one_cyan
       type: pie
       row: 1
       col: 4
@@ -58,7 +58,7 @@ financial:
     - metric: strategic-priority-investment
       colours:
         text: white
-        box: khaki
+        box: set_one_pink
       type: pie
       row: 1
       col: 4
@@ -74,7 +74,7 @@ performance:
     - metric: participation
       colours:
         text: white
-        box: blue
+        box: set_two_green
       type: chart
       from: '*'
       to: '*'
@@ -84,7 +84,7 @@ performance:
     - metric: outdoor-space
       colours:
         text: white
-        box: burgundy
+        box: set_two_teal
       type: chart
       from: '2005-01-01'
       to: '*'
@@ -94,7 +94,7 @@ performance:
     - metric: inactivity
       colours:
         text: white
-        box: orange
+        box: set_two_khaki
       type: chart
       from: '*'
       to: '*'
@@ -104,7 +104,7 @@ performance:
     - metric: volunteering
       colours:
         text: white
-        box: khaki
+        box: set_two_green
       type: chart
       from: '*'
       to: '*'
@@ -114,7 +114,7 @@ performance:
     - metric: facilities
       colours:
         text: white
-        box: blue
+        box: set_two_teal
       type: number
       row: 1
       col: 3
@@ -122,7 +122,7 @@ performance:
     - metric: csaf-participation
       colours:
         text: white
-        box: burgundy
+        box: set_two_khaki
       type: pie
       row: 2
       col: 3
@@ -130,7 +130,7 @@ performance:
     - metric: coaching-satisfaction-breakdown
       colours:
         text: white
-        box: khaki
+        box: set_two_green
       type: pie
       row: 1
       col: 4
@@ -138,7 +138,47 @@ performance:
     - metric: coaching-net-promoter-score
       colours:
         text: white
-        box: green
+        box: set_two_teal
       type: number
       row: 2
       col: 4
+
+test:
+  rows: 2
+  cols: 2
+
+  metrics:
+
+    - metric: participation
+      colours:
+        text: white
+        box: blue
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 1
+
+    - metric: lottery-payments
+      colours:
+        text: white
+        box: green
+      type: target
+      row: 2
+      col: 1
+
+    - metric: facilities
+      colours:
+        text: white
+        box: blue
+      type: number
+      row: 1
+      col: 2
+
+    - metric: csaf-participation
+      colours:
+        text: white
+        box: burgundy
+      type: pie
+      row: 2
+      col: 2
