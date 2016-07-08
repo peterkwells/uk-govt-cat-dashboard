@@ -108,16 +108,16 @@ performance:
       type: chart
       from: '*'
       to: '*'
-      row: 2
-      col: 2
+      row: 1
+      col: 3
 
     - metric: facilities
       colours:
         text: white
         box: set_two_green
       type: number
-      row: 1
-      col: 3
+      row: 2
+      col: 2
 
     - metric: csaf-participation
       colours:
