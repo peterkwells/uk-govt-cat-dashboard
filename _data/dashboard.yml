@@ -36,7 +36,7 @@ financial:
       type: target
       row: 2
       col: 2
-      
+
     - metric: grant-processing-cost
       colours:
         text: white
@@ -117,11 +117,11 @@ performance:
       row: 2
       col: 3
 
-    - metric: coaching-satisfaction-breakdown
+    - metric: physical-literacy
       colours:
         text: white
         box: set_three_teal
-      type: pie
+      type: number
       row: 1
       col: 4
 
