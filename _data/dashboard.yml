@@ -17,7 +17,7 @@ financial:
     - metric: bank-balance
       colours:
         text: white
-        box: set_one_pink
+        box: set_one_teal
       type: target
       row: 1
       col: 2
@@ -28,32 +28,32 @@ financial:
         text: white
         box: set_one_cyan
       type: target
-      row: 1
-      col: 4
+      row: 2
+      col: 2
 
     - metric: lottery-income
       colours:
         text: white
-        box: set_one_teal
-      type: target
-      row: 2
-      col: 2
-
-    - metric: lottery-payments
-      colours:
-        text: white
         box: set_one_cyan
       type: target
-      row: 2
-      col: 3
+      row: 1
+      col: 4
 
-    - metric: grant-processing-cost
+    - metric: lottery-payments
       colours:
         text: white
         box: set_one_teal
       type: target
       row: 2
       col: 4
+
+    - metric: grant-processing-cost
+      colours:
+        text: white
+        box: set_one_pink
+      type: target
+      row: 2
+      col: 3
 
 performance:
   rows: 2
