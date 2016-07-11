@@ -115,7 +115,7 @@ performance:
         box: set_three_teal
       type: pie
       row: 2
-      col: 3
+      col: 4
 
     - metric: physical-literacy
       colours:
@@ -131,7 +131,7 @@ performance:
         box: set_three_mauve
       type: number
       row: 2
-      col: 4
+      col: 3
 
 test:
   rows: 2
