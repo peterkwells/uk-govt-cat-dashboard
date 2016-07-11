@@ -4,13 +4,23 @@ financial:
 
   metrics:
 
+    - metric: strategic-priority-investment
+      colours:
+        text: white
+        box: set_one_pink
+      type: pie
+      row: 1
+      col: 1
+      height: 2
+      width: 1
+
     - metric: bank-balance
       colours:
         text: white
         box: set_one_pink
       type: target
       row: 1
-      col: 1
+      col: 2
       width: 2
 
     - metric: operating-cost
@@ -19,7 +29,7 @@ financial:
         box: set_one_cyan
       type: target
       row: 1
-      col: 3
+      col: 4
 
     - metric: lottery-income
       colours:
@@ -27,7 +37,7 @@ financial:
         box: set_one_teal
       type: target
       row: 2
-      col: 1
+      col: 2
 
     - metric: lottery-payments
       colours:
@@ -35,7 +45,7 @@ financial:
         box: set_one_cyan
       type: target
       row: 2
-      col: 2
+      col: 3
 
     - metric: grant-processing-cost
       colours:
@@ -43,17 +53,7 @@ financial:
         box: set_one_teal
       type: target
       row: 2
-      col: 3
-
-    - metric: strategic-priority-investment
-      colours:
-        text: white
-        box: set_one_pink
-      type: pie
-      row: 1
       col: 4
-      height: 2
-      width: 1
 
 performance:
   rows: 2
