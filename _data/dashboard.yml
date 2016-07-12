@@ -101,7 +101,7 @@ performance:
       row: 1
       col: 3
 
-    - metric: facilities
+    - metric: under-utilised-facilities
       colours:
         text: white
         box: set_three_mauve
