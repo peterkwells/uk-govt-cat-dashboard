@@ -31,19 +31,19 @@ financial:
       row: 2
       col: 2
 
-    - metric: lottery-income
+    - metric: outstanding-aged-lottery-award-balances
       colours:
         text: white
         box: set_one_cyan
-      type: target
+      type: number
       row: 1
       col: 4
 
-    - metric: lottery-payments
+    - metric: outstanding-aged-lottery-awards-volume
       colours:
         text: white
         box: set_one_teal
-      type: target
+      type: number
       row: 2
       col: 4
 
