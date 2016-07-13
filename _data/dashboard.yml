@@ -21,7 +21,14 @@ financial:
       type: target
       row: 1
       col: 2
-      width: 2
+
+    - metric: lottery-payments
+      colours:
+        text: white
+        box: set_one_cyan
+      type: target
+      row: 1
+      col: 3
 
     - metric: operating-cost
       colours:
@@ -34,7 +41,7 @@ financial:
     - metric: outstanding-aged-lottery-award-balances
       colours:
         text: white
-        box: set_one_cyan
+        box: set_one_pink
       type: number
       row: 1
       col: 4
