@@ -129,6 +129,8 @@ performance:
         text: white
         box: set_three_teal
       type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 4
 
