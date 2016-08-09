@@ -1,6 +1,7 @@
 financial:
   rows: 2
   cols: 4
+  protected: true
 
   metrics:
 
