@@ -20,6 +20,11 @@ class App < Sinatra::Base
 
   dashboards = YAML.load(File.open '_data/dashboard.yml')
 
+  get "/" do
+    protected!
+    File.read("_site/index.html")
+  end
+
   dashboards.each do |k,v|
 
     get "/#{k}" do
