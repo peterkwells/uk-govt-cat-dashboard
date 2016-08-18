@@ -2,13 +2,14 @@
 layout: dashboard
 ---
 
-<div id="financial" class="wrapper hidden" data-title="UK government cats">
+<div id="basiccatdashboard" class="wrapper hidden" data-title="UK government cats">
   {% include metrics.html dashboard=site.data.dashboard.ukgovcats %}
 </div>
 
 <script>
   $(document).ready(function() {
     setInterval(function() {
+      $('#catdashboard').toggleClass('hidden');
       title = $('div:not(.hidden)').data('title')
       $('h1').html(title)
     }, 30000);
