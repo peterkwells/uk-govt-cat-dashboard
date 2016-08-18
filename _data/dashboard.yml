@@ -11,7 +11,7 @@ ukgovcats:
       type: number
       row: 1
       col: 1
-      height: 3
+      height: 1
       width: 1
 
     - metric: Schrodingers Gov Cats
@@ -21,7 +21,7 @@ ukgovcats:
       type: number
       row: 1
       col: 2
-      height: 3
+      height: 1
       width: 1
 
     - metric: Total Gov Cats
@@ -31,7 +31,7 @@ ukgovcats:
       type: number
       row: 2
       col: 1
-      height: 2
+      height: 1
       width: 1
 
     - metric: Total Uk Cats
@@ -41,5 +41,5 @@ ukgovcats:
       type: number
       row: 2
       col: 2
-      height: 2
+      height: 1
       width: 1
