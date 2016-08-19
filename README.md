@@ -1,7 +1,7 @@
 # uk-govt-cat-dashboard
 A dashboard for the [UK government cat register](https://peterkwells.github.io/uk-government-cats/)
 
-[View the dashboard](https://peterkwells.github.io/uk-govt-cat-dashboard/ukgovcats.html)
+[View the dashboard](https://peterkwells.github.io/uk-govt-cat-dashboard/ukgovcats.html) which was created using [bothan](https://bothan.io/) by the [ODI Labs team](https://theodi.org/labs).
 
 Data comes from:
 
@@ -9,6 +9,7 @@ Data comes from:
 + the gov.uk [list of organisations](https://www.gov.uk/government/organisations)
 + data on the [cat population per postcode district](https://data.gov.uk/dataset/cat-population-per-postcode-district) produced by the (Animal and Plant Health Agency](https://www.gov.uk/government/organisations/animal-and-plant-health-agency)
 
+The data is gathered from each of these sources, analysed and posted to Bothan via [Zapier](https://zapier.com). The dashboard will be updated whenever the cat register receives a new data commit or at the start of each month.
 
 Definitions:
 
