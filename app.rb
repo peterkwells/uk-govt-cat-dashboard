@@ -27,9 +27,13 @@ class App < Sinatra::Base
 
   dashboards.each do |k,v|
 
+    get "/#{k}.html" do
+      redirect("/#{k}")
+    end
+
     get "/#{k}" do
       protected! if v['protected']
-      File.read("_site/#{k}.html")
+      File.read("dashboards/#{k}.html")
     end
 
   end
