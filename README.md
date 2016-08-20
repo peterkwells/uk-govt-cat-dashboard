@@ -1,7 +1,7 @@
 # uk-govt-cat-dashboard
 A dashboard for the [UK government cat register](https://peterkwells.github.io/uk-government-cats/)
 
-[View the dashboard](https://peterkwells.github.io/uk-govt-cat-dashboard/ukgovcats.html) which was created using [bothan](https://bothan.io/) by the [ODI Labs team](https://theodi.org/labs).
+[View the dashboard](https://peterkwells.github.io/uk-govt-cat-dashboard/ukgovcats.html) which was created using the [bothan](https://bothan.io/) tool developed by the [ODI Labs team](https://theodi.org/labs).
 
 Data comes from:
 
@@ -21,4 +21,4 @@ The data is gathered from each of these sources, analysed and posted to Bothan v
 + Total UK governent departments is a manual sum of the data on gov.uk. Please suggest somewhere I can easily automate reading it :)
 
 
-p.s. not got an earworm yet? Listen to [love cats](https://www.youtube.com/watch?v=mcUza_wWCfA)
+p.s. not got a gov cats earworm? [Listen](https://www.youtube.com/watch?v=mcUza_wWCfA).
