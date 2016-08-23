@@ -7,7 +7,7 @@ Data comes from:
 
 + the unofficial [UK government cat register](https://peterkwells.github.io/uk-government-cats/)
 + the gov.uk [list of organisations](https://www.gov.uk/government/organisations)
-+ data on the [cat population per postcode district](https://data.gov.uk/dataset/cat-population-per-postcode-district) produced by the (Animal and Plant Health Agency](https://www.gov.uk/government/organisations/animal-and-plant-health-agency)
++ data on the [cat population per postcode district](https://data.gov.uk/dataset/cat-population-per-postcode-district) produced by the [Animal and Plant Health Agency](https://www.gov.uk/government/organisations/animal-and-plant-health-agency)
 
 The data is gathered from each of these sources, analysed and posted to Bothan via [Zapier](https://zapier.com). The dashboard will be updated whenever the cat register receives a new data commit or at the start of each month.
 
