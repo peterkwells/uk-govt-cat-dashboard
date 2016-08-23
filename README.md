@@ -1,7 +1,9 @@
 # uk-govt-cat-dashboard
-A dashboard for the [UK government cat register](https://peterkwells.github.io/uk-government-cats/)
+A dashboard for the [UK government cat register](https://peterkwells.github.io/uk-government-cats/).
 
 [View the dashboard](https://peterkwells.github.io/uk-govt-cat-dashboard/ukgovcats.html) which was created using the [bothan](https://bothan.io/) tool developed by the [ODI Labs team](https://theodi.org/labs).
+
+Read a [blog](https://medium.com/@peterkwells/gov-cats-f143d4a7407b#.mx9junxy7) about how this was created.
 
 Data comes from:
 
