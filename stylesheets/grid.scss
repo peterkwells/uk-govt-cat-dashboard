@@ -32,9 +32,9 @@ body {
 }
 
 ul.grid {
-  top: 0;
+  top: 50px;
   position: relative;
-  height: 90%;
+  height: 85%;
   margin: 0;
   padding: 0;
 
@@ -105,6 +105,12 @@ ul.grid {
   max-height: 8%;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
+
 @media all and ( max-width: 600px ) {
   ul.grid > li {
     position: static;
@@ -113,5 +119,9 @@ ul.grid {
     div {
       position: relative;
     }
+  }
+
+  footer {
+    position: static;
   }
 }
