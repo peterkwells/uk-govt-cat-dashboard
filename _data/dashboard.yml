@@ -4,61 +4,73 @@ ukgovcats:
 
   metrics:
 
-    - metric: Active Gov Cats
+    - metric: active-gov-cats
       colours:
         text: white
         box: blue
       type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 1
       height: 1
       width: 1
 
-    - metric: Total Sw1 Cats
+    - metric: total-sw1-cats
       colours:
         text: white
         box: khaki
       type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 2
       height: 1
       width: 1
 
-    - metric: Schrodingers Gov Cats
+    - metric: schrodingers-gov-cats
       colours:
         text: white
         box: orange
       type: number
+      from: '*'
+      to: '*'
       row: 2
       col: 3
       height: 1
       width: 1
 
-    - metric: Total Gov Cats
+    - metric: total-gov-cats
       colours:
         text: white
         box: burgundy
       type: number
+      from: '*'
+      to: '*'
       row: 2
       col: 2
       height: 1
       width: 1
 
-    - metric: Total Uk Cats
+    - metric: total-uk-cats
       colours:
         text: white
         box: green
       type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 3
       height: 1
       width: 1
 
-    - metric: Total Uk government departments
+    - metric: total-uk-government-departments
       colours:
         text: white
         box: gold
       type: number
+      from: '*'
+      to: '*'
       row: 2
       col: 1
       height: 1
